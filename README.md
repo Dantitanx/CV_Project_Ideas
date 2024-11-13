@@ -1,8 +1,38 @@
-# React + Vite
+# CV_Project_Ideas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## TODO
 
-Currently, two official plugins are available:
+- React focused project
+    - Hook: useState, useEffect, useContext, useCallback
+    - use react-router-dom
+    - React a vite based template
+    `npm create vite@latest .`
+    - Use CSS framework
+        - **Bootstrap**
+        - **Pico** CSS (minimalistic)
+        - **Bulma**
+        - You can use **Tailwind** too but it's a bit more complex
+    - Firebase as BaaS and DB
+    - Use the appropriate folder structure
+    - **SCSS**
+    - CRUD on multiple pages, keep the component absed architecture
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    - Folder struct:
+        - src:
+            - components
+                    - <component_name>
+                    - index.js
+                    - <component_name>.jsx
+                    - <component_name>.scss
+            - pages
+                    - <page_name>
+                    - index.js
+                    - <page_name>.jsx
+                    - <page_name>.scss
+            - firebase
+                - auth.js
+                - firebase.js
+            - hooks
+            - services/api
+            - contexts
+            - main.jsx

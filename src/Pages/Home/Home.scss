@@ -1,0 +1,99 @@
+/* src/pages/Home/Home.scss */
+.home {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.login-button {
+    border: 1px solid #333;
+    padding: 5px 15px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.cart-icon {
+    position: relative;
+    font-size: 24px;
+    color: #333;
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #f7e8ff, #ffffff);
+}
+
+.hero-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-subtitle {
+    color: #888;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: contain;
+}
