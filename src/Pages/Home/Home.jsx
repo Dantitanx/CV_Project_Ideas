@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.scss';
 import Navbar from '../../components/Navbar/Navbar';
+import { polo_hosszu_kesz } from '../../Images';
 
 const Home = () => {
     return (
@@ -22,7 +23,7 @@ const Home = () => {
                     <Link to="/latest-collection" className="hero-button">Latest Collection →</Link>
                 </div>
                 <div className="hero-image">
-                    <img src='../../Images/bogrelogos.png' alt="Model" />
+                    <img src={polo_hosszu_kesz} alt="Model" />
                 </div>
             </main>
         </div>
