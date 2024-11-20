@@ -70,7 +70,7 @@ const SignUp = () => {
             <img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="Google icon" /> Sign in with Google
         </button>
       <div className="text">
-        <h3>Already have an account? <a href="#">Login now</a></h3>
+        <h3>Already have an account? <a href="#"><Link className="nav-link active" to="/login"></Link>Login now</a></h3>
       </div>
     </form>
 
